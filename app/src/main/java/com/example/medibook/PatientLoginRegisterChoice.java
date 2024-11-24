@@ -7,10 +7,12 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatTextView;
 
 public class PatientLoginRegisterChoice extends AppCompatActivity {
 
-    private AppCompatButton login,register;
+    private AppCompatButton login;
+    private AppCompatTextView register;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

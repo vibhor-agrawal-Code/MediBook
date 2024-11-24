@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="40dp"
+            android:padding="50dp"
             android:gravity="center"
             android:background="@drawable/floating_plate"
             android:elevation="10dp"
@@ -35,26 +35,17 @@
 
             </androidx.appcompat.widget.AppCompatButton>
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/cutive"
-                android:text="Or"
-                android:textColor="@color/mainTextColor"
-                android:gravity="center"
-                android:textSize="15sp"/>
-            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/register"
-                android:layout_marginTop="15dp"
-                android:layout_width="150dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Register"
-                android:paddingLeft="30dp"
-                android:paddingRight="30dp"
-                android:textColor="@color/innerColor"
-                android:background="@drawable/custom_round_main_btn">
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/cutive"
+                android:text="New Patient? Register here."
+                android:textColor="#0F0FAA"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="10sp"/>
 
-            </androidx.appcompat.widget.AppCompatButton>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

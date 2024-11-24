@@ -154,6 +154,7 @@ public class DoctorMainActivity extends AppCompatActivity implements NavigationV
     }
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         finish();
     }
 }

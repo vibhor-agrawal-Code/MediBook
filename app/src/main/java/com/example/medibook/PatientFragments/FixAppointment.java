@@ -272,7 +272,7 @@ public class FixAppointment extends AppCompatActivity {
                         }
                     });
 
-                    Toast.makeText(FixAppointment.this, "Amount Credited Successfully", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(FixAppointment.this, "Amount Debited Successfully", Toast.LENGTH_SHORT).show();
                    // LoadDetails();
 
 
